@@ -1,23 +1,68 @@
 aid: cruise-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cruise-technologies.png
 name: Cruise Technologies
-description: Cruise Technologies is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Cruise Technologies was a wireless thin-client computing company founded in 1997 and based
+  in Arlington Heights, Illinois. It developed the CruiseConnect platform, which enabled server-class and
+  wireless thin-client computing delivered through OEM and licensing partners worldwide. The company raised
+  roughly $12M from Battery Ventures and Bessemer Venture Partners, was acquired in 1999, and has since
+  ceased operations. It was surfaced as a historical entry on the Battery Ventures list-of-all-companies
+  roster and added to the API Evangelist network as a portfolio lead. Enrichment confirmed the company
+  is defunct: it has no live website, no developer portal, no documentation, and no API surface of any
+  kind. The former cruisetechnologies.com domain is a parked HugeDomains for-sale listing, not a company
+  property. This profile is retained as a historical record only and requires no further enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/cruise-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+- bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct:
+  founded: '1997'
+  headquarters: Arlington Heights, Illinois, United States
+  product: CruiseConnect wireless thin-client computing platform
+  funding_raised: $12M
+  acquired: '1999'
+  ceased_operations: true
+  former_domain: cruisetechnologies.com
+  former_domain_status: parked (HugeDomains for-sale listing, HTTP 302 -> hugedomains.com)
+  api_surface: none
+  sources:
+  - https://www.battery.com/list-of-all-companies/
+  - https://pitchbook.com/profiles/company/cruise-technologies
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Defunct
+- Thin Client
+- Wireless
+- Enterprise Computing
+- OEM
+- Historical
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
